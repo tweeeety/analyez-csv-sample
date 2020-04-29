@@ -16,5 +16,24 @@ Sample data is biostats data, and file name is "biostats.csv".
 ## Sample command
 ```sh
 $ curl -s https://raw.githubusercontent.com/tweeeety/analyez-csv-sample/master/sample.csv | awk -F"," '{print $1 ":" $2}'
+Name:Sex
+Alex:M
+Bert:M
+Carl:M
+Dave:M
+Elly:F
+Fran:F
+Gwen:F
+Hank:M
+Ivan:M
+Jake:M
+Kate:F
+Luke:M
+Myra:F
+Neil:M
+Omar:M
+Page:F
+Quin:M
+Ruth:F
 ```
 
