@@ -10,6 +10,8 @@ https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html
 
 Sample data is biostats data, and file name is "biostats.csv".
 
+>biostats.csv, 
+>biometric statistics for a group of office workers. There are 18 records, recording Name, Sex, Age, Height, Weight There is an initial header line.
 
 ## Sample command
 ```sh
