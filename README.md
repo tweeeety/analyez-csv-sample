@@ -1,10 +1,11 @@
 # analyez-csv-sample
 
 ## Overview
-This repository is csv data sample. Purpose of sample is data processing through executing from command line.
+This repository is csv data sample.  
+Purpose of sample is data processing through executing from command line.  
 
 ## Source of data
-Sample data was taken from the following.
+Sample data was taken from the following.  
 https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html
 
 ## Sample command
