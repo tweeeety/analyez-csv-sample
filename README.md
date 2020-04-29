@@ -62,5 +62,8 @@ Omar:M
 Page:F
 Quin:M
 Ruth:F
+
+# skip first row
+$ curl -s https://raw.githubusercontent.com/tweeeety/analyez-csv-sample/master/sample.csv | awk -F"," 'NR>1 {print $1 ":" $2}'
 ```
 
