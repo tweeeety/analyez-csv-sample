@@ -65,5 +65,23 @@ Ruth:F
 
 # skip first row
 $ curl -s https://raw.githubusercontent.com/tweeeety/analyez-csv-sample/master/sample.csv | awk -F"," 'NR>1 {print $1 ":" $2}'
+Alex:M
+Bert:M
+Carl:M
+Dave:M
+Elly:F
+Fran:F
+Gwen:F
+Hank:M
+Ivan:M
+Jake:M
+Kate:F
+Luke:M
+Myra:F
+Neil:M
+Omar:M
+Page:F
+Quin:M
+Ruth:F
 ```
 
