@@ -15,7 +15,8 @@ Sample data is biostats data, and file name is "biostats.csv".
 
 ## Sample command
 
-```bash
+### only curl
+```sh
 $ curl -s https://raw.githubusercontent.com/tweeeety/analyez-csv-sample/master/sample.csv
 Name,Sex,Age,Height (in),Weight (lbs)
 Alex,M,41,74,170
@@ -37,6 +38,8 @@ Page,F,31,67,135
 Quin,M,29,71,176
 Ruth,F,28,65,131
 ```
+
+### curl + awk
 
 ```sh
 $ curl -s https://raw.githubusercontent.com/tweeeety/analyez-csv-sample/master/sample.csv | awk -F"," '{print $1 ":" $2}'
